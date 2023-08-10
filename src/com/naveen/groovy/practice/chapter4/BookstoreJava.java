@@ -1,6 +1,6 @@
 package com.naveen.groovy.practice.chapter4;
 
-public class BookstoreJava implements BookStore {
+public class BookstoreJava implements Bookstore {
     private Book b; // written in Groovy
     private Publisher p; // written in Java
     public Book makeBook() {
@@ -12,7 +12,7 @@ public class BookstoreJava implements BookStore {
     }
     public Publisher makePublisher() {
         p = new Publisher();
-        p.setName("Pragmatic Bookshelf" );
+       // p.setName("Pragmatic Bookshelf" );
         return p;
     }
 }

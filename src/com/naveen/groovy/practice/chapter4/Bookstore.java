@@ -1,5 +1,5 @@
 package com.naveen.groovy.practice.chapter4;
 
-public interface BookStore {
+public interface Bookstore {
     Publisher makePublisher();
 }
