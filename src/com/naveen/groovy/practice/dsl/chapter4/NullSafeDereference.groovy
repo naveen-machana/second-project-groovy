@@ -6,8 +6,7 @@ class NullSafeDereference {
         println customer?.name
 
         // equivalient to
-        if (customer != null)
-            println customer.name
+        if (customer != null) println customer.name
     }
 }
 
